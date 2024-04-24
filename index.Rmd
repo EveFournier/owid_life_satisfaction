@@ -52,7 +52,7 @@ cantril_reshape<-cantril %>%
                            `2022`= colDef(format = colFormat(percent = FALSE, digits = 2)),
               `Relative change` = colDef(format = colFormat(percent = TRUE, digits = 1)),
               `Absolute change` = colDef(format = colFormat(percent = FALSE, digits = 2)))) %>%  
-    add_title("Happiness change between 2010 and 2020 (% Happy)",font_size = 15)
+    add_title("Happiness change between 2010 and 2022 (% Happy)",font_size = 15)
     
   
 ```
